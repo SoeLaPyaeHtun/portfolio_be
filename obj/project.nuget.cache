@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "RrM6BaExseH6TCa0CKXbctAU2uCGDVSx2oDnTfWRouHjgDA+1TFhRb2VEOzK/PRbTsjZVX66HNm9iyykKkBPqA==",
+  "dgSpecHash": "SCRZ0Wr8e8n8+WrzlARy/HZ5wQihmI9ome4BDMeAAWskYaAhv/ooFKySuZ9AuhM8IIald9bmqzsumkU6tlzfiQ==",
   "success": true,
   "projectFilePath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj",
   "expectedPackageFiles": [
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.apigatewayevents/2.6.0/amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.applicationloadbalancerevents/2.1.0/amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.aspnetcoreserver/8.1.0/amazon.lambda.aspnetcoreserver.8.1.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.aspnetcoreserver.hosting/1.6.0/amazon.lambda.aspnetcoreserver.hosting.1.6.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.core/2.1.0/amazon.lambda.core.2.1.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.logging.aspnetcore/3.1.0/amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.runtimesupport/1.8.6/amazon.lambda.runtimesupport.1.8.6.nupkg.sha512",
+    "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.3.1/amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
     "/Users/soelapyaehtun/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/soelapyaehtun/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/soelapyaehtun/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",
