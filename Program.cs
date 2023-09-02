@@ -24,7 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(Options => Options.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyHeader().WithMethods("GET", "PUT", "POST", "DELETE", "OPTIONS"));
+app.UseCors(Options => Options.WithOrigins("https://soelapyaehtun.github.io").AllowAnyHeader().AllowAnyHeader().WithMethods("GET", "PUT", "POST", "DELETE", "OPTIONS"));
 
 
 app.UseHttpsRedirection();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SCRZ0Wr8e8n8+WrzlARy/HZ5wQihmI9ome4BDMeAAWskYaAhv/ooFKySuZ9AuhM8IIald9bmqzsumkU6tlzfiQ==",
+  "dgSpecHash": "pduKCA4iAIvu8otRV6FSCvgYN1vFVHq40rTHZveY549naAb6fWyBvtyxkPf9Eqpw5ifif7XgrnuncipidYvmbw==",
   "success": true,
-  "projectFilePath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj",
+  "projectFilePath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/pp_backend.csproj",
   "expectedPackageFiles": [
     "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.apigatewayevents/2.6.0/amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
     "/Users/soelapyaehtun/.nuget/packages/amazon.lambda.applicationloadbalancerevents/2.1.0/amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",

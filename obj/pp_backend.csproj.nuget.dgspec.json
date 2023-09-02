@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj": {}
+    "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/pp_backend.csproj": {}
   },
   "projects": {
-    "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj": {
+    "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/pp_backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj",
+        "projectUniqueName": "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/pp_backend.csproj",
         "projectName": "pp_backend",
-        "projectPath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/pp_backend.csproj",
+        "projectPath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/pp_backend.csproj",
         "packagesPath": "/Users/soelapyaehtun/.nuget/packages/",
-        "outputPath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/obj/",
+        "outputPath": "/Users/soelapyaehtun/Projects/Portfolio_Asp/portfolio_be/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/soelapyaehtun/.nuget/NuGet/NuGet.Config"
