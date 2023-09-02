@@ -162,3 +162,11 @@
 /Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/obj/Debug/net7.0/pp_backend.pdb
 /Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/obj/Debug/net7.0/pp_backend.genruntimeconfig.cache
 /Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/obj/Debug/net7.0/ref/pp_backend.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.APIGatewayEvents.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.AspNetCoreServer.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.AspNetCoreServer.Hosting.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.Core.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.Logging.AspNetCore.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.RuntimeSupport.dll
+/Users/soelapyaehtun/Projects/Portfolio_Asp/pp_backend/bin/Debug/net7.0/Amazon.Lambda.Serialization.SystemTextJson.dll
