@@ -79,18 +79,17 @@ public class HireMeController : ControllerBase
       
         var path = Path.Combine(Directory.GetCurrentDirectory(), "ResumeFile", filename);
         Console.WriteLine("----------------" + path);
-        // try
-        // {
-        //     var stream = new FileStream(path, FileMode.Open);
-        //     return File(stream, "application/octet-stream", filename);
-        // }
-        // catch (Exception e)
-        // {
-        //     return Ok(path);
+        try
+        {
+            var stream = new FileStream(path, FileMode.Open);
+            return File(stream, "application/octet-stream", filename);
+        }
+        catch (Exception e)
+        {
+            return Ok(e.Message);
 
-        // }
+        }
 
-        return Ok(path);
 
     }
 
