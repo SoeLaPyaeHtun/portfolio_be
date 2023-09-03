@@ -2,6 +2,7 @@ global using pp_backend.Data;
 using Microsoft.EntityFrameworkCore;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,6 +24,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
 
 app.UseCors(Options => Options.WithOrigins("https://soelapyaehtun.github.io").AllowAnyHeader().AllowAnyHeader().WithMethods("GET", "PUT", "POST", "DELETE", "OPTIONS"));
 

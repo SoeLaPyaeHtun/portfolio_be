@@ -16,11 +16,12 @@ namespace pp_backend.Controllers;
 public class HireMeController : ControllerBase
 {
     private readonly mailDBContext _context;
+    private readonly IWebHostEnvironment environment; 
 
     public HireMeController(mailDBContext context)
     {
         _context = context;
-        
+
     }
 
     [HttpGet]
@@ -31,19 +32,21 @@ public class HireMeController : ControllerBase
 
 
     [HttpPost]
-    public async Task<ActionResult<HireMe>> postHireMeMail(HireMe hireMeMail){  
-      
+    public async Task<ActionResult<HireMe>> postHireMeMail(HireMe hireMeMail)
+    {
 
-        try{
-              _context.HireMe.Add(hireMeMail);
-             await _context.SaveChangesAsync();
- 
+
+        try
+        {
+            _context.HireMe.Add(hireMeMail);
+            await _context.SaveChangesAsync();
+
             MailMessage message = new MailMessage();
             message.From = new MailAddress("singlapyaehtun@gmail.com");
-           
+
             message.Subject = "Thanks for reaching out.";
             message.To.Add(new MailAddress(hireMeMail.Mail.ToString()));
-            message.Body = "<html><body><h3>Hello ,<br /><br />Thank you for contacting me. <br />"+
+            message.Body = "<html><body><h3>Hello ,<br /><br />Thank you for contacting me. <br />" +
                         "This is an automated response to confirm that you got your contact. <br />" +
                         "I will get back to you as soon as possible. <br /><br />Thanks.</h3>" +
                         "<h5>Best Regards,<br />Soe La Pyae Htun<br />+65 86470728<br /></h5></body ></html > ";
@@ -51,28 +54,44 @@ public class HireMeController : ControllerBase
 
             var smtpClient = new System.Net.Mail.SmtpClient("smtp.gmail.com")
             {
-                Port = 587, 
+                Port = 587,
                 Credentials = new NetworkCredential("singlapyaehtun@gmail.com", "goievbsimpkllixj"),
                 EnableSsl = true,
             };
 
             smtpClient.Send(message);
 
-    
-        return Ok(true);
 
-        }catch(Exception e){
+            return Ok(true);
+
+        }
+        catch (Exception e)
+        {
             return Ok(e.Message);
         }
-           
+
     }
 
     [HttpGet]
-    [Route("getresume")]   
-    public IActionResult DownloadResume(String filename){
-        var path = Path.Combine(Directory.GetCurrentDirectory(), "ResumeFile" , filename);
-        var stream = new FileStream(path, FileMode.Open);
-        return File(stream, "application/octet-stream", filename);
+    [Route("getresume")]
+    public IActionResult DownloadResume(String filename)
+    {
+      
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "ResumeFile", filename);
+        Console.WriteLine("----------------" + path);
+        // try
+        // {
+        //     var stream = new FileStream(path, FileMode.Open);
+        //     return File(stream, "application/octet-stream", filename);
+        // }
+        // catch (Exception e)
+        // {
+        //     return Ok(path);
+
+        // }
+
+        return Ok(path);
+
     }
 
 }
